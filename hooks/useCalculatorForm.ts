@@ -29,15 +29,28 @@ export default function useCalculatorForm() {
     console.log("hheeee")
     try {
       if (data.imp0 != 0) {
-        console.log(data.input4 + "hell")
+        let multiplier;
+        //console.log(data.input4 + "hell")
+        if(data.input8 < data.input5) {
+          multiplier = -27;
+       } else {
+          multiplier = 41;
+       }
         const A = Math.abs(data.imp0 - data.input8);
         const difC = Math.abs(data.impp - data.input6);
         const difB = Math.abs(data.exp0 - data.input9);
         const valueA = Math.abs(difB - A);
-        const B = Math.abs(valueA * -27);
+        const B = Math.abs(valueA * multiplier);
         const C = Math.abs(difC * 48);
         const totalUsage = Math.abs(C - B); // example calculation
-        const monthlyCost = C - B; // example rate per kWh
+        let monthlyCost;
+        if(data.input8 < data.input5) {
+          const totalUsage = C - B; // example calculation
+           monthlyCost = totalUsage; // example rate per kWh
+       } else {
+          const totalUsage = B + C; // example calculation
+           monthlyCost = - totalUsage; // example rate per kWh
+       }
 
         setResult({
           data : data,
