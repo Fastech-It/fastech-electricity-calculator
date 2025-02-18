@@ -16,7 +16,7 @@ export default function SplashPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Welcome to Fastech Electricity Savings Calculator
+            Welcome to Fastech Electricity Green Meter Calculator
           </motion.h1>
           <motion.p
             className="mt-4 text-xl text-white/80"
@@ -105,6 +105,17 @@ export default function SplashPage() {
           transition={{ duration: 0.5, delay: 0.8 }}
         >
           <p>© 2025 Labridtech. All rights reserved.</p>
+          <p className="text-sm">
+            Fastech is a solar panel company providing innovative solar solutions for energy savings and cost-effective energy use. Learn more at{" "}
+            <a
+              href="https://www.fastech.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded bg-gradient-to-r from-blue-500 to-purple-500 px-3 py-1 text-sm font-medium text-white shadow-md transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+            >
+              Fastech
+            </a>
+          </p>
         </motion.div>
       </div>
     </div>
