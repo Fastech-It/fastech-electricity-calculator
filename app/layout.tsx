@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import MouseMoveEffect from "../components/mouse-move-effect"
-import logo from "@/public/logo.jpg"
+import logo from "@/public/logopng.jpg"
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
 import { AppSidebar } from "@/components/sidebar"
 import { Toaster } from "@/components/ui/toaster"
