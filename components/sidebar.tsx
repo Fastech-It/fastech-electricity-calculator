@@ -45,7 +45,7 @@ export function AppSidebar() {
           <AvatarImage src={logo.src} />
           <AvatarFallback>FT</AvatarFallback>
         </Avatar>
-        <h1 className="text-2xl font-bold">Fastech</h1>
+        <h1 className="text-2xl font-bold">FasTech</h1>
       </SidebarHeader>
       <SidebarContent>
         <SidebarGroup>
