@@ -106,7 +106,7 @@ export default function SplashPage() {
         >
           <p>© 2025 Labridtech. All rights reserved.</p>
           <p className="text-sm">
-            Fastech is a solar panel company providing innovative solar solutions for energy savings and cost-effective energy use. Learn more at{" "}
+            Fastech is a solar panel company providing innovative solar solutions for energy savings and cost-effective energy use. Learn more at{" "}<br/>
             <a
               href="https://www.fastech.com"
               target="_blank"
