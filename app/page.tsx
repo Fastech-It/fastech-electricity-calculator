@@ -11,7 +11,7 @@ export default function SplashPage() {
         {/* Header */}
         <div className="text-center">
           <motion.h1
-            className="text-4xl font-bold tracking-tight text-white sm:text-6xl"
+            className="text-4xl font-bold tracking-tight text-black sm:text-6xl"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
@@ -19,7 +19,7 @@ export default function SplashPage() {
             Welcome to Fastech Electricity Green Meter Calculator
           </motion.h1>
           <motion.p
-            className="mt-4 text-xl text-white/80"
+            className="mt-4 text-xl text-black/80"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -27,7 +27,7 @@ export default function SplashPage() {
             Choose your calculation method
           </motion.p>
           <motion.p
-            className="mt-2 text-sm text-white/60 flex items-center justify-center gap-2"
+            className="mt-2 text-sm text-black/60 flex items-center justify-center gap-2"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
@@ -36,7 +36,7 @@ export default function SplashPage() {
             Please read the instructions before using the calculator.
           </motion.p>
           <motion.p
-            className="mt-2 text-sm text-white/60 flex items-center justify-center gap-2"
+            className="mt-2 text-sm text-black/60 flex items-center justify-center gap-2"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
@@ -54,15 +54,15 @@ export default function SplashPage() {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             <Link href="/newmeter">
-              <div className="group relative overflow-hidden rounded-2xl bg-white/10 p-8 backdrop-blur-sm transition-all duration-300 hover:bg-white/20 hover:shadow-2xl hover:shadow-purple-500/20">
+              <div className="group relative overflow-hidden rounded-2xl bg-black/10 p-8 backdrop-blur-sm transition-all duration-300 hover:bg-black/20 hover:shadow-2xl hover:shadow-purple-500/20">
                 <div className="relative z-10">
                   <div className="mb-4 inline-block rounded-full bg-purple-500 p-3">
-                    <Calculator className="h-8 w-8 text-white" />
+                    <Calculator className="h-8 w-8 text-black" />
                   </div>
-                  <h2 className="mb-2 text-2xl font-bold text-white">
+                  <h2 className="mb-2 text-2xl font-bold text-black">
                     Calculate for New Meter
                   </h2>
-                  <p className="text-white/80">
+                  <p className="text-black/80">
                     Start fresh with new meter calculations and get accurate
                     readings
                   </p>
@@ -79,15 +79,15 @@ export default function SplashPage() {
             transition={{ duration: 0.5, delay: 0.6 }}
           >
             <Link href="/oldmeter">
-              <div className="group relative overflow-hidden rounded-2xl bg-white/10 p-8 backdrop-blur-sm transition-all duration-300 hover:bg-white/20 hover:shadow-2xl hover:shadow-blue-500/20">
+              <div className="group relative overflow-hidden rounded-2xl bg-black/10 p-8 backdrop-blur-sm transition-all duration-300 hover:bg-black/20 hover:shadow-2xl hover:shadow-blue-500/20">
                 <div className="relative z-10">
                   <div className="mb-4 inline-block rounded-full bg-blue-500 p-3">
-                    <Clock className="h-8 w-8 text-white" />
+                    <Clock className="h-8 w-8 text-black" />
                   </div>
-                  <h2 className="mb-2 text-2xl font-bold text-white">
+                  <h2 className="mb-2 text-2xl font-bold text-black">
                     Calculate for Old Meter
                   </h2>
-                  <p className="text-white/80">
+                  <p className="text-black/80">
                     Continue with existing meter data for historical tracking
                   </p>
                 </div>
@@ -99,7 +99,7 @@ export default function SplashPage() {
 
         {/* Footer */}
         <motion.div
-          className="mt-16 text-center text-white/60"
+          className="mt-16 text-center text-black/60"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.8 }}
@@ -111,7 +111,7 @@ export default function SplashPage() {
               href="https://www.fastech.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block rounded bg-gradient-to-r from-blue-500 to-purple-500 px-3 py-1 text-sm font-medium text-white shadow-md transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+              className="inline-block rounded bg-gradient-to-r from-blue-500 to-purple-500 px-3 py-1 text-sm font-medium text-black shadow-md transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
             >
               Fastech
             </a>
