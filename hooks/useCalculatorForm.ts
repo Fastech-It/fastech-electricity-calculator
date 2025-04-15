@@ -69,10 +69,10 @@ export default function useCalculatorForm() {
         let monthlyCost;
         if(data.input8 < data.input5) {
            const totalUsage = C - B; // example calculation
-            monthlyCost = totalUsage; // example rate per kWh
+            monthlyCost = - totalUsage; // example rate per kWh
         } else {
            const totalUsage = B + C; // example calculation
-            monthlyCost = - totalUsage; // example rate per kWh
+            monthlyCost =  totalUsage; // example rate per kWh
         }
         setResult({
           data : data,
